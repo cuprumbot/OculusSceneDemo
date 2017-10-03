@@ -1,0 +1,16 @@
+﻿Compilación iniciada a las 2017-07-23 22:48:21.
+     1>Proyecto "D:\SDK\OculusSDK\Samples\OculusRoomTiny\OculusRoomTiny (DX11)\Projects\Windows\VS2013\OculusRoomTiny (DX11).vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\SDK\OculusSDK\LibOVR/Include/ /Z7 /nologo /W4 /WX- /MP /Od /Oy- /D OVR_BUILD_DEBUG /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /RTCc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"D:\SDK\OculusSDK\Samples\OculusRoomTiny\OculusRoomTiny (DX11)\Projects\Windows\VS2013\..\..\..\Obj\Windows\Win32\Debug\VS2013\\" /Fd"D:\SDK\OculusSDK\Samples\OculusRoomTiny\OculusRoomTiny (DX11)\Projects\Windows\VS2013\..\..\..\Obj\Windows\Win32\Debug\VS2013\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\main.cpp
+         main.cpp
+     1>..\..\..\main.cpp(251): warning C4189: 'camY' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>..\..\..\main.cpp(368): warning C4189: 'ez' : la variable local se ha inicializado pero no se hace referencia a ella
+     1>..\..\..\main.cpp(252): warning C4189: 'camZ' : la variable local se ha inicializado pero no se hace referencia a ella
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SDK\OculusSDK\Samples\OculusRoomTiny\OculusRoomTiny (DX11)\Projects\Windows\VS2013\..\..\..\Bin\Windows\Win32\Debug\VS2013\OculusRoomTiny (DX11).exe" /INCREMENTAL /NOLOGO D:\SDK\OculusSDK\LibOVR/Lib/Windows/Win32/Debug/VS2013/LibOVR.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\PerMonitorHighDPIAware.manifest" /DEBUG /PDB:"D:\SDK\OculusSDK\Samples\OculusRoomTiny\OculusRoomTiny (DX11)\Projects\Windows\VS2013\..\..\..\Bin\Windows\Win32\Debug\VS2013\OculusRoomTiny (DX11).pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SDK\OculusSDK\Samples\OculusRoomTiny\OculusRoomTiny (DX11)\Projects\Windows\VS2013\..\..\..\Bin\Windows\Win32\Debug\VS2013\OculusRoomTiny (DX11).lib" /MACHINE:X86 "D:\SDK\OculusSDK\Samples\OculusRoomTiny\OculusRoomTiny (DX11)\Projects\Windows\VS2013\..\..\..\Obj\Windows\Win32\Debug\VS2013\main.obj"
+         OculusRoomTiny (DX11).vcxproj -> D:\SDK\OculusSDK\Samples\OculusRoomTiny\OculusRoomTiny (DX11)\Projects\Windows\VS2013\..\..\..\Bin\Windows\Win32\Debug\VS2013\OculusRoomTiny (DX11).exe
+     1>Compilación del proyecto terminada "D:\SDK\OculusSDK\Samples\OculusRoomTiny\OculusRoomTiny (DX11)\Projects\Windows\VS2013\OculusRoomTiny (DX11).vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.73
